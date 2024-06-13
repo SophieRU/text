@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #2e8b57;
+}
+
+#controls {
+    margin: 20px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #98fb98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tile img {
+    width: 90px;
+    height: 90px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#congratulations {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff4500;
+}
+
+
+
+
